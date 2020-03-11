@@ -1,0 +1,41 @@
+.show-dropDown {
+    display: block !important;
+}
+.sidebar {
+    height: 100%;
+    width: 50px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 20px;
+}
+
+.sidebar a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.show-width {
+    width: 250px;
+}
+.openbtn {
+    color: #6b3586;
+    font-size: 24px;
+}

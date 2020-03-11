@@ -1,0 +1,22 @@
+/* _colors.scss */
+/* unique color names */
+/* semantic color names */
+.toast-success {
+  background-color: #6D0493 !important; }
+
+.toast-error {
+  background-color: #FF3B30 !important; }
+
+.toast-info {
+  background-color: #6D0493 !important; }
+
+.toast-warning {
+  background-color: #FFCC33 !important; }
+
+#toast-container > div {
+  border-radius: 2px;
+  box-shadow: 0 0 0px #999999;
+  opacity: 1; }
+
+#toast-container > :hover {
+  box-shadow: 0 0 0px #000000; }

@@ -1,0 +1,92 @@
+.left-side {
+    border-right: 1px solid darkgray;
+}
+
+html, body, #root, .App {
+    height: 100%;
+}
+
+#root .App #mySidebar .sidebar-items{
+    margin-top: 75px;
+}
+
+
+#root .App .right-side-header {
+    height: 100%;
+    padding-left: 91px;
+}
+
+#root .App .right-side-header .content {
+    background-color: #f3f3f3;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.form-inline .input-append .q-center-input {
+    height: 28px;
+
+}
+i.q-center-icon {
+    margin-right: 0 !important;
+}
+.q-center-label {
+    color: gray;
+    font-weight: 600;
+}
+.icon-answered {
+    color: #41d717;
+    padding: 2px;
+    font-size: 10px !important;
+}
+
+.icon-missed {
+    color: red;
+    padding: 2px;
+    font-size: 10px !important;
+
+}
+
+.icon-waiting {
+    color: orange;
+    padding: 2px;
+    font-size: 10px !important;
+
+}
+.queue-extensions{
+    justify-content: start;
+    flex-direction: row;
+    display: flex;
+}
+.queue-extensions .num {
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+    margin-top: 10px;
+}
+.q-center-chips {
+    color: white;
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 12px;
+    max-width: 55px;
+    max-height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.chips-status-login {
+    border: 1px solid darkgreen;
+    background-color: green;
+}
+.chips-status-logout {
+    border: 1px solid darkred;
+    background-color: red;
+}
+.menu-icon {
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+.menu-icon.selected {
+    color: #6D0493;
+}
+

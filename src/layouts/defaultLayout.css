@@ -1,0 +1,15 @@
+#main {
+    transition: margin-right .5s;
+}
+.show-width {
+    width: 250px;
+}
+.main-margin {
+    margin-right: 250px;
+}
+
+.main-title {
+    font-size: 20px;
+    color: #757575;
+    font-weight: bold;
+}
